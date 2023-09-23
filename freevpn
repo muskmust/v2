@@ -5,127 +5,135 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Japan 02, server: speedip.eu.org, port: 80, type: vmess, uuid: 16830a6a-c1df-45df-bd85-6ec0819ac1a2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /xingsuyun, ws-headers: {Host: jp9.xingsu.fun}, udp: true}
-  - {name: Japan 03, server: speedip.eu.org, port: 80, type: vmess, uuid: 16830a6a-c1df-45df-bd85-6ec0819ac1a2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /xingsuyun, ws-headers: {Host: jp10.xingsu.fun}, udp: true}
-  - {name: Japan 04, server: speedip.eu.org, port: 80, type: vmess, uuid: 43e3f61d-ecac-44ab-97d1-1259f9a3a349, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /xingsuyun, ws-headers: {Host: jp8.xingsu.fun}, udp: true}
-  - {name: Japan 05, server: speedip.eu.org, port: 80, type: vmess, uuid: 43e3f61d-ecac-44ab-97d1-1259f9a3a349, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /xingsuyun, ws-headers: {Host: jp9.xingsu.fun}, udp: true}
-  - {name: 关注频道每天更新, server: speedip.eu.org, port: 80, type: vmess, uuid: 43e3f61d-ecac-44ab-97d1-1259f9a3a349, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /xingsuyun, ws-headers: {Host: jp10.xingsu.fun}, udp: true}
-  - {name: Singapore 01, server: speedip.eu.org, port: 80, type: vmess, uuid: 16830a6a-c1df-45df-bd85-6ec0819ac1a2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /xingsuyun, ws-headers: {Host: sg6.xingsu.fun}, udp: true}
-  - {name: Singapore 02, server: speedip.eu.org, port: 80, type: vmess, uuid: 16830a6a-c1df-45df-bd85-6ec0819ac1a2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /xingsuyun, ws-headers: {Host: sg7.xingsu.fun}, udp: true}
-  - {name: Singapore 03, server: speedip.eu.org, port: 80, type: vmess, uuid: 16830a6a-c1df-45df-bd85-6ec0819ac1a2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /xingsuyun, ws-headers: {Host: sg8.xingsu.fun}, udp: true}
-  - {name: Singapore 04, server: speedip.eu.org, port: 80, type: vmess, uuid: 16830a6a-c1df-45df-bd85-6ec0819ac1a2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /xingsuyun, ws-headers: {Host: sg9.xingsu.fun}, udp: true}
-  - {name: Singapore 05, server: speedip.eu.org, port: 80, type: vmess, uuid: 16830a6a-c1df-45df-bd85-6ec0819ac1a2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /xingsuyun, ws-headers: {Host: sg10.xingsu.fun}, udp: true}
-  - {name: Singapore 06, server: speedip.eu.org, port: 80, type: vmess, uuid: 43e3f61d-ecac-44ab-97d1-1259f9a3a349, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /xingsuyun, ws-headers: {Host: sg6.xingsu.fun}, udp: true}
-  - {name: Singapore 07, server: speedip.eu.org, port: 80, type: vmess, uuid: 43e3f61d-ecac-44ab-97d1-1259f9a3a349, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /xingsuyun, ws-headers: {Host: sg7.xingsu.fun}, udp: true}
-  - {name: Singapore 08, server: speedip.eu.org, port: 80, type: vmess, uuid: 43e3f61d-ecac-44ab-97d1-1259f9a3a349, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /xingsuyun, ws-headers: {Host: sg8.xingsu.fun}, udp: true}
-  - {name: Singapore 09, server: speedip.eu.org, port: 80, type: vmess, uuid: 43e3f61d-ecac-44ab-97d1-1259f9a3a349, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /xingsuyun, ws-headers: {Host: sg9.xingsu.fun}, udp: true}
-  - {name: TG群:@dns68, server: speedip.eu.org, port: 80, type: vmess, uuid: 43e3f61d-ecac-44ab-97d1-1259f9a3a349, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /xingsuyun, ws-headers: {Host: sg10.xingsu.fun}, udp: true}
-  - {name: Taiwan 01, server: speedip.eu.org, port: 80, type: vmess, uuid: 16830a6a-c1df-45df-bd85-6ec0819ac1a2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /xingsuyun, ws-headers: {Host: tw2.xingsu.fun}, udp: true}
-  - {name: Taiwan 02, server: speedip.eu.org, port: 80, type: vmess, uuid: 43e3f61d-ecac-44ab-97d1-1259f9a3a349, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /xingsuyun, ws-headers: {Host: tw2.xingsu.fun}, udp: true}
-  - {name: Hong Kong 01, server: speedip.eu.org, port: 80, type: vmess, uuid: 16830a6a-c1df-45df-bd85-6ec0819ac1a2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /xingsuyun, ws-headers: {Host: hk6.xingsu.fun}, udp: true}
-  - {name: Hong Kong 02, server: speedip.eu.org, port: 80, type: vmess, uuid: 16830a6a-c1df-45df-bd85-6ec0819ac1a2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /xingsuyun, ws-headers: {Host: hk7.xingsu.fun}, udp: true}
-  - {name: Hong Kong 03, server: speedip.eu.org, port: 80, type: vmess, uuid: 16830a6a-c1df-45df-bd85-6ec0819ac1a2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /xingsuyun, ws-headers: {Host: hk8.xingsu.fun}, udp: true}
-  - {name: Hong Kong 04, server: speedip.eu.org, port: 80, type: vmess, uuid: 16830a6a-c1df-45df-bd85-6ec0819ac1a2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /xingsuyun, ws-headers: {Host: hk9.xingsu.fun}, udp: true}
-  - {name: Hong Kong 05, server: speedip.eu.org, port: 80, type: vmess, uuid: 16830a6a-c1df-45df-bd85-6ec0819ac1a2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /xingsuyun, ws-headers: {Host: hk10.xingsu.fun}, udp: true}
-  - {name: Hong Kong 06, server: speedip.eu.org, port: 80, type: vmess, uuid: 43e3f61d-ecac-44ab-97d1-1259f9a3a349, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /xingsuyun, ws-headers: {Host: hk6.xingsu.fun}, udp: true}
-  - {name: Hong Kong 07, server: speedip.eu.org, port: 80, type: vmess, uuid: 43e3f61d-ecac-44ab-97d1-1259f9a3a349, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /xingsuyun, ws-headers: {Host: hk7.xingsu.fun}, udp: true}
-  - {name: Hong Kong 08, server: speedip.eu.org, port: 80, type: vmess, uuid: 43e3f61d-ecac-44ab-97d1-1259f9a3a349, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /xingsuyun, ws-headers: {Host: hk8.xingsu.fun}, udp: true}
-  - {name: 群链接https://t.me/dns68, server: speedip.eu.org, port: 80, type: vmess, uuid: 43e3f61d-ecac-44ab-97d1-1259f9a3a349, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /xingsuyun, ws-headers: {Host: hk10.xingsu.fun}, udp: true}
+  - {name: CN中国210, server: 41.kccic2pa.xyz, port: 50041, type: vmess, uuid: 3814af1d-9358-46d5-824d-567d4532e66e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: +JP+日本+170, server: 43.207.233.98, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: +JP+日本+204, server: 18.183.142.132, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: CN中国8, server: 17.kccic2pa.xyz, port: 50017, type: vmess, uuid: 3814af1d-9358-46d5-824d-567d4532e66e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN中国42, server: 08.kccic2pa.xyz, port: 50008, type: vmess, uuid: 3814af1d-9358-46d5-824d-567d4532e66e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN中国68, server: 10.kccic2pa.xyz, port: 50010, type: vmess, uuid: 3814af1d-9358-46d5-824d-567d4532e66e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN中国5, server: 09.kccic2pa.xyz, port: 50009, type: vmess, uuid: 3814af1d-9358-46d5-824d-567d4532e66e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN中国165, server: 20.kccic2pa.xyz, port: 50020, type: vmess, uuid: 3814af1d-9358-46d5-824d-567d4532e66e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN中国212, server: 16.kccic2pa.xyz, port: 50016, type: vmess, uuid: 3814af1d-9358-46d5-824d-567d4532e66e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: +NL+荷兰+72, server: 78.153.139.98, port: 1792, type: ss, cipher: chacha20-ietf-poly1305, password: bpRogmcSxC4NrYG6BcZH2R, udp: true}
+  - {name: +DE+德国+113, server: 18.192.97.26, port: 22222, type: trojan, password: telegram-id-privatevpns, skip-cert-verify: true, udp: true}
+  - {name: +SE+瑞典+61, server: 16.171.73.163, port: 22222, type: trojan, password: telegram-id-privatevpns, skip-cert-verify: true, udp: true}
+  - {name: +FR+法国+54, server: 15.237.34.52, port: 22222, type: trojan, password: telegram-id-privatevpns, skip-cert-verify: true, udp: true}
+  - {name: CN中国3, server: 01.kccic2pa.xyz, port: 50001, type: vmess, uuid: 3814af1d-9358-46d5-824d-567d4532e66e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: +GB+英国+60, server: 18.135.201.169, port: 22222, type: trojan, password: telegram-id-directvpn, skip-cert-verify: true, udp: true}
+  - {name: +IE+爱尔兰+67, server: 54.75.22.115, port: 22222, type: trojan, password: telegram-id-privatevpns, skip-cert-verify: true, udp: true}
+  - {name: +DE+德国+98, server: 3.78.1.224, port: 22222, type: trojan, password: telegram-id-directvpn, skip-cert-verify: true, udp: true}
+  - {name: CA加拿大53, server: fx4-108.181.10.17.nip.io, port: 8080, type: vmess, uuid: b2e93e40-5553-11ee-b033-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: fx4-108.181.10.17.nip.io}, udp: true}
+  - {name: +NL+荷兰+106, server: 51.15.25.187, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: +GB+英国+78, server: 51.195.202.124, port: 2053, type: trojan, password: 8fa57192-e2e4-49b3-951c-04638c0e33a4, skip-cert-verify: true, udp: true}
+  - {name: RU俄罗斯联邦38, server: 62.113.116.94, port: 12389, type: vmess, uuid: 3cc97ffe-bf14-473f-b9d5-3da3cb43377e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: +GB+英国+62, server: 51.195.202.124, port: 2053, type: trojan, password: c1b7af78-3ca6-4055-9df0-4ede98292a19, skip-cert-verify: true, udp: true}
+  - {name: IR伊朗25, server: 78.39.56.7, port: 38566, type: vmess, uuid: ea8cb574-173f-4300-c924-cc9e17687031, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: GB 英国 1, server: 13.42.200.222, port: 22222, type: trojan, password: telegram-id-privatevpns, skip-cert-verify: true, udp: true}
+  - {name: GB 英国 3, server: 35.176.9.177, port: 22222, type: trojan, password: telegram-id-privatevpns, skip-cert-verify: true, udp: true}
+  - {name: +IE+爱尔兰+89, server: 63.35.80.100, port: 22222, type: trojan, password: telegram-id-directvpn, skip-cert-verify: true, udp: true}
+  - {name: IE 爱尔兰 2, server: 54.75.22.115, port: 22222, type: trojan, password: telegram-id-privatevpns, skip-cert-verify: true, udp: true}
+  - {name: US 美国 5, server: 104.17.88.252, port: 2082, type: vmess, uuid: 6388bd92-6cbc-4b72-a9a6-931f071d0ffa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /phosphorylative.aurorainiceland.com/nimvws, ws-headers: {Host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Japan 02
-      - Japan 03
-      - Japan 04
-      - Japan 05
-      - 关注频道每天更新
-      - Singapore 01
-      - Singapore 02
-      - Singapore 03
-      - Singapore 04
-      - Singapore 05
-      - Singapore 06
-      - Singapore 07
-      - Singapore 08
-      - Singapore 09
-      - TG群:@dns68
-      - Taiwan 01
-      - Taiwan 02
-      - Hong Kong 01
-      - Hong Kong 02
-      - Hong Kong 03
-      - Hong Kong 04
-      - Hong Kong 05
-      - Hong Kong 06
-      - Hong Kong 07
-      - Hong Kong 08
-      - 群链接https://t.me/dns68
+      - CN中国210
+      - +JP+日本+170
+      - +JP+日本+204
+      - CN中国8
+      - CN中国42
+      - CN中国68
+      - CN中国5
+      - CN中国165
+      - CN中国212
+      - +NL+荷兰+72
+      - +DE+德国+113
+      - +SE+瑞典+61
+      - +FR+法国+54
+      - CN中国3
+      - +GB+英国+60
+      - +IE+爱尔兰+67
+      - +DE+德国+98
+      - CA加拿大53
+      - +NL+荷兰+106
+      - +GB+英国+78
+      - RU俄罗斯联邦38
+      - +GB+英国+62
+      - IR伊朗25
+      - GB 英国 1
+      - GB 英国 3
+      - +IE+爱尔兰+89
+      - IE 爱尔兰 2
+      - US 美国 5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Japan 02
-      - Japan 03
-      - Japan 04
-      - Japan 05
-      - 关注频道每天更新
-      - Singapore 01
-      - Singapore 02
-      - Singapore 03
-      - Singapore 04
-      - Singapore 05
-      - Singapore 06
-      - Singapore 07
-      - Singapore 08
-      - Singapore 09
-      - TG群:@dns68
-      - Taiwan 01
-      - Taiwan 02
-      - Hong Kong 01
-      - Hong Kong 02
-      - Hong Kong 03
-      - Hong Kong 04
-      - Hong Kong 05
-      - Hong Kong 06
-      - Hong Kong 07
-      - Hong Kong 08
-      - 群链接https://t.me/dns68
+      - CN中国210
+      - +JP+日本+170
+      - +JP+日本+204
+      - CN中国8
+      - CN中国42
+      - CN中国68
+      - CN中国5
+      - CN中国165
+      - CN中国212
+      - +NL+荷兰+72
+      - +DE+德国+113
+      - +SE+瑞典+61
+      - +FR+法国+54
+      - CN中国3
+      - +GB+英国+60
+      - +IE+爱尔兰+67
+      - +DE+德国+98
+      - CA加拿大53
+      - +NL+荷兰+106
+      - +GB+英国+78
+      - RU俄罗斯联邦38
+      - +GB+英国+62
+      - IR伊朗25
+      - GB 英国 1
+      - GB 英国 3
+      - +IE+爱尔兰+89
+      - IE 爱尔兰 2
+      - US 美国 5
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Japan 02
-      - Japan 03
-      - Japan 04
-      - Japan 05
-      - 关注频道每天更新
-      - Singapore 01
-      - Singapore 02
-      - Singapore 03
-      - Singapore 04
-      - Singapore 05
-      - Singapore 06
-      - Singapore 07
-      - Singapore 08
-      - Singapore 09
-      - TG群:@dns68
-      - Taiwan 01
-      - Taiwan 02
-      - Hong Kong 01
-      - Hong Kong 02
-      - Hong Kong 03
-      - Hong Kong 04
-      - Hong Kong 05
-      - Hong Kong 06
-      - Hong Kong 07
-      - Hong Kong 08
-      - 群链接https://t.me/dns68
+      - CN中国210
+      - +JP+日本+170
+      - +JP+日本+204
+      - CN中国8
+      - CN中国42
+      - CN中国68
+      - CN中国5
+      - CN中国165
+      - CN中国212
+      - +NL+荷兰+72
+      - +DE+德国+113
+      - +SE+瑞典+61
+      - +FR+法国+54
+      - CN中国3
+      - +GB+英国+60
+      - +IE+爱尔兰+67
+      - +DE+德国+98
+      - CA加拿大53
+      - +NL+荷兰+106
+      - +GB+英国+78
+      - RU俄罗斯联邦38
+      - +GB+英国+62
+      - IR伊朗25
+      - GB 英国 1
+      - GB 英国 3
+      - +IE+爱尔兰+89
+      - IE 爱尔兰 2
+      - US 美国 5
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -144,32 +152,34 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Japan 02
-      - Japan 03
-      - Japan 04
-      - Japan 05
-      - 关注频道每天更新
-      - Singapore 01
-      - Singapore 02
-      - Singapore 03
-      - Singapore 04
-      - Singapore 05
-      - Singapore 06
-      - Singapore 07
-      - Singapore 08
-      - Singapore 09
-      - TG群:@dns68
-      - Taiwan 01
-      - Taiwan 02
-      - Hong Kong 01
-      - Hong Kong 02
-      - Hong Kong 03
-      - Hong Kong 04
-      - Hong Kong 05
-      - Hong Kong 06
-      - Hong Kong 07
-      - Hong Kong 08
-      - 群链接https://t.me/dns68
+      - CN中国210
+      - +JP+日本+170
+      - +JP+日本+204
+      - CN中国8
+      - CN中国42
+      - CN中国68
+      - CN中国5
+      - CN中国165
+      - CN中国212
+      - +NL+荷兰+72
+      - +DE+德国+113
+      - +SE+瑞典+61
+      - +FR+法国+54
+      - CN中国3
+      - +GB+英国+60
+      - +IE+爱尔兰+67
+      - +DE+德国+98
+      - CA加拿大53
+      - +NL+荷兰+106
+      - +GB+英国+78
+      - RU俄罗斯联邦38
+      - +GB+英国+62
+      - IR伊朗25
+      - GB 英国 1
+      - GB 英国 3
+      - +IE+爱尔兰+89
+      - IE 爱尔兰 2
+      - US 美国 5
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -180,95 +190,101 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Japan 02
-      - Japan 03
-      - Japan 04
-      - Japan 05
-      - 关注频道每天更新
-      - Singapore 01
-      - Singapore 02
-      - Singapore 03
-      - Singapore 04
-      - Singapore 05
-      - Singapore 06
-      - Singapore 07
-      - Singapore 08
-      - Singapore 09
-      - TG群:@dns68
-      - Taiwan 01
-      - Taiwan 02
-      - Hong Kong 01
-      - Hong Kong 02
-      - Hong Kong 03
-      - Hong Kong 04
-      - Hong Kong 05
-      - Hong Kong 06
-      - Hong Kong 07
-      - Hong Kong 08
-      - 群链接https://t.me/dns68
+      - CN中国210
+      - +JP+日本+170
+      - +JP+日本+204
+      - CN中国8
+      - CN中国42
+      - CN中国68
+      - CN中国5
+      - CN中国165
+      - CN中国212
+      - +NL+荷兰+72
+      - +DE+德国+113
+      - +SE+瑞典+61
+      - +FR+法国+54
+      - CN中国3
+      - +GB+英国+60
+      - +IE+爱尔兰+67
+      - +DE+德国+98
+      - CA加拿大53
+      - +NL+荷兰+106
+      - +GB+英国+78
+      - RU俄罗斯联邦38
+      - +GB+英国+62
+      - IR伊朗25
+      - GB 英国 1
+      - GB 英国 3
+      - +IE+爱尔兰+89
+      - IE 爱尔兰 2
+      - US 美国 5
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Japan 02
-      - Japan 03
-      - Japan 04
-      - Japan 05
-      - 关注频道每天更新
-      - Singapore 01
-      - Singapore 02
-      - Singapore 03
-      - Singapore 04
-      - Singapore 05
-      - Singapore 06
-      - Singapore 07
-      - Singapore 08
-      - Singapore 09
-      - TG群:@dns68
-      - Taiwan 01
-      - Taiwan 02
-      - Hong Kong 01
-      - Hong Kong 02
-      - Hong Kong 03
-      - Hong Kong 04
-      - Hong Kong 05
-      - Hong Kong 06
-      - Hong Kong 07
-      - Hong Kong 08
-      - 群链接https://t.me/dns68
+      - CN中国210
+      - +JP+日本+170
+      - +JP+日本+204
+      - CN中国8
+      - CN中国42
+      - CN中国68
+      - CN中国5
+      - CN中国165
+      - CN中国212
+      - +NL+荷兰+72
+      - +DE+德国+113
+      - +SE+瑞典+61
+      - +FR+法国+54
+      - CN中国3
+      - +GB+英国+60
+      - +IE+爱尔兰+67
+      - +DE+德国+98
+      - CA加拿大53
+      - +NL+荷兰+106
+      - +GB+英国+78
+      - RU俄罗斯联邦38
+      - +GB+英国+62
+      - IR伊朗25
+      - GB 英国 1
+      - GB 英国 3
+      - +IE+爱尔兰+89
+      - IE 爱尔兰 2
+      - US 美国 5
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Japan 02
-      - Japan 03
-      - Japan 04
-      - Japan 05
-      - 关注频道每天更新
-      - Singapore 01
-      - Singapore 02
-      - Singapore 03
-      - Singapore 04
-      - Singapore 05
-      - Singapore 06
-      - Singapore 07
-      - Singapore 08
-      - Singapore 09
-      - TG群:@dns68
-      - Taiwan 01
-      - Taiwan 02
-      - Hong Kong 01
-      - Hong Kong 02
-      - Hong Kong 03
-      - Hong Kong 04
-      - Hong Kong 05
-      - Hong Kong 06
-      - Hong Kong 07
-      - Hong Kong 08
-      - 群链接https://t.me/dns68
+      - CN中国210
+      - +JP+日本+170
+      - +JP+日本+204
+      - CN中国8
+      - CN中国42
+      - CN中国68
+      - CN中国5
+      - CN中国165
+      - CN中国212
+      - +NL+荷兰+72
+      - +DE+德国+113
+      - +SE+瑞典+61
+      - +FR+法国+54
+      - CN中国3
+      - +GB+英国+60
+      - +IE+爱尔兰+67
+      - +DE+德国+98
+      - CA加拿大53
+      - +NL+荷兰+106
+      - +GB+英国+78
+      - RU俄罗斯联邦38
+      - +GB+英国+62
+      - IR伊朗25
+      - GB 英国 1
+      - GB 英国 3
+      - +IE+爱尔兰+89
+      - IE 爱尔兰 2
+      - US 美国 5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -284,32 +300,34 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Japan 02
-      - Japan 03
-      - Japan 04
-      - Japan 05
-      - 关注频道每天更新
-      - Singapore 01
-      - Singapore 02
-      - Singapore 03
-      - Singapore 04
-      - Singapore 05
-      - Singapore 06
-      - Singapore 07
-      - Singapore 08
-      - Singapore 09
-      - TG群:@dns68
-      - Taiwan 01
-      - Taiwan 02
-      - Hong Kong 01
-      - Hong Kong 02
-      - Hong Kong 03
-      - Hong Kong 04
-      - Hong Kong 05
-      - Hong Kong 06
-      - Hong Kong 07
-      - Hong Kong 08
-      - 群链接https://t.me/dns68
+      - CN中国210
+      - +JP+日本+170
+      - +JP+日本+204
+      - CN中国8
+      - CN中国42
+      - CN中国68
+      - CN中国5
+      - CN中国165
+      - CN中国212
+      - +NL+荷兰+72
+      - +DE+德国+113
+      - +SE+瑞典+61
+      - +FR+法国+54
+      - CN中国3
+      - +GB+英国+60
+      - +IE+爱尔兰+67
+      - +DE+德国+98
+      - CA加拿大53
+      - +NL+荷兰+106
+      - +GB+英国+78
+      - RU俄罗斯联邦38
+      - +GB+英国+62
+      - IR伊朗25
+      - GB 英国 1
+      - GB 英国 3
+      - +IE+爱尔兰+89
+      - IE 爱尔兰 2
+      - US 美国 5
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
